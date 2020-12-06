@@ -7,22 +7,29 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Fade from "react-reveal/Fade"
 
-const  App = () => {
-  return (
-  <div className="App" style={{ position: "relative" }}>
-     <AppNavbar/>
-     <AppCarousel/>
-     <TitleMessage/>
-        <div>
-        <Jumbotron fluid>
-          <Container className="container-box rounded">
-            <Fade duration={500}>
-              <About />
-            </Fade>
-          </Container>
-          </Jumbotron>
-        </div>
-  </div>
-  );
+import { BrowserRouter, Link, Route } from 'react-router-dom';
+import React, { Component } from 'react';
+
+class App extends Component {
+  render(){
+    return (
+      <div className="App" style={{ position: "relative" }}>
+         <AppNavbar/>
+         <AppCarousel/>
+         <TitleMessage/>
+            <div>
+            <Jumbotron fluid>
+              <Container className="container-box rounded">
+                <Fade duration={500}>
+                  <About />
+                </Fade>
+              </Container>
+              </Jumbotron>
+            </div>
+      </div>
+      );
+    
+  }
+
 }
 export default App;

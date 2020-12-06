@@ -32,10 +32,10 @@ const TitleMessage = () => (
     <div className="titleMessage">
       <div className="heading">
         <div className="main text-center mb-3">
-          Hi! My name is 
+          Hi! I'm 
           <br/>
           <span>
-            <strong>Dimitri Ramos</strong>
+            <strong>Dimitri Ramos:</strong>
           </span>
         </div>
         <div className="sub">
