@@ -6,8 +6,6 @@ import About from './pages/about/about.component';
 import Container from "react-bootstrap/Container";
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Fade from "react-reveal/Fade"
-
-import { BrowserRouter, Link, Route } from 'react-router-dom';
 import React, { Component } from 'react';
 
 class App extends Component {
