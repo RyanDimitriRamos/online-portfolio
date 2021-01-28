@@ -4,6 +4,7 @@ import AppCarousel from './components/app-carousel/app-carousel';
 import TitleMessage from './components/title-message/title-message';
 import About from './pages/about/about';
 import Skills from './pages/skills/skills';
+import Experience from './pages/experience/experience';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Fade from 'react-reveal/Fade';
@@ -28,6 +29,12 @@ class App extends Component {
           <Slide bottom duration={500}>
             <hr />
             <Skills />
+          </Slide>
+        </Container>
+        <Container className="container-box rounded">
+          <Slide bottom duration={500}>
+            <hr />
+            <Experience />
           </Slide>
         </Container>
       </div>
