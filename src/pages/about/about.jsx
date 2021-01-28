@@ -11,13 +11,13 @@ import "./about.style.css";
 const About = () => {
     return(
         <div id='about'>
-            <div className = "about">
+           <div className = "about">
                 <h1 className ="pt-3 text-center font-details pb-3" >About Me</h1>
                 <Container>
                 <Row className="pt-3 pb-5 align-items-center">
                         {/*Profile photo column*/ }
                         <Col xs={12} md = {6}>
-                            <Row>
+                        <Row>
                                 <Image className="profile justify-content-center" alt="profile" src={ProfilePhoto} thumbnail fluid />
                             </Row>
                         </Col>

@@ -6,7 +6,6 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "./themes/theme";
 
 ReactDOM.render(
-  //Wrapping this in theme provider allows the app to get stuff out of theme.js
   <ThemeProvider theme= {theme}>
     <App />
   </ThemeProvider>,
