@@ -4,7 +4,7 @@ import Slide1 from "../../assets/img/carousel/slide1.jpg";
 import Slide2 from "../../assets/img/carousel/slide2.jpg";
 import Slide3 from "../../assets/img/carousel/slide3.jpg";
 import ScrollDown from "../scroll-down/scroll-down";
-import "./app-carousel.style.css";
+import "./app-carousel.css";
 
 
 const AppCarousel = () => {

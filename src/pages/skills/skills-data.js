@@ -3,14 +3,17 @@ import CSS3 from '../../assets/img/skills/css3.svg';
 import BOOTSTRAP from '../../assets/img/skills/bootstrap-4.svg';
 import REACT from '../../assets/img/skills/react.svg';
 import REACT_BOOTSTRAP from '../../assets/img/skills/react-bootstrap.svg';
+import RAILS from '../../assets/img/skills/rails.svg'
 import NODE_JS from '../../assets/img/skills/nodejs.svg';
 import EXPRESS from '../../assets/img/skills/express.svg';
 import GIT from '../../assets/img/skills/git-icon.svg';
+import PSQL from '../../assets/img/skills/postgresql.svg';
 import MARIADB from '../../assets/img/skills/mariadb.svg';
 import JAVASCRIPT from '../../assets/img/skills/javascript.svg';
 import JAVA from '../../assets/img/skills/java.svg';
 import PYTHON from '../../assets/img/skills/python.svg';
 import KOTLIN from '../../assets/img/skills/kotlin.svg';
+import RUBY from '../../assets/img/skills/ruby.svg';
 
 export const skills = {
   frontend: [
@@ -65,6 +68,12 @@ export const skills = {
       imgSrc: EXPRESS,
       skillName: "Express",
     },
+    {
+      link: "https://rubyonrails.org/",
+      imgAltText: "Ruby on Rails",
+      imgSrc: RAILS,
+      skillName: "Ruby on Rails",
+    },
   ],
 
   databases: [
@@ -74,20 +83,26 @@ export const skills = {
       imgSrc: MARIADB,
       skillName: "MariaDB",
     },
+    {
+      link: "https://www.postgresql.org/",
+      imgAltText: "PostgreSQL",
+      imgSrc: PSQL,
+      skillName: "PostgreSQL",
+    },
   ],
 
   programmingLanguages: [
+    {
+      link: "https://www.java.com/en/",
+      imgAltText: "Java",
+      imgSrc: JAVA,
+      skillName: "Java",
+    },
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: JAVASCRIPT,
       skillName: "JavaScript",
-    },
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "Java",
-      imgSrc: JAVA,
-      skillName: "Java",
     },
     {
       link: "https://www.python.org/",
@@ -100,6 +115,12 @@ export const skills = {
       imgAltText: "Kotlin",
       imgSrc: KOTLIN,
       skillName: "Kotlin",
+    },
+    {
+      link: "https://www.ruby-lang.org/en/",
+      imgAltText: "Ruby",
+      imgSrc: RUBY,
+      skillName: "Ruby",
     },
   ],
   versionControl: [

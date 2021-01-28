@@ -14,9 +14,9 @@ class App extends Component {
   render() {
     return (
       <div className="App" style={{ position: "relative" }}>
-        <AppNavbar/>
-        <AppCarousel/>
-        <TitleMessage/>
+        <AppNavbar />
+        <AppCarousel />
+        <TitleMessage />
         <Jumbotron fluid>
           <Container className="container-box rounded">
             <Fade duration={500}>
